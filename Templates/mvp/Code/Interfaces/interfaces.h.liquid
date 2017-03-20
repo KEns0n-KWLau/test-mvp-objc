@@ -1,0 +1,40 @@
+//
+//  {{ prefix }}{{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+#ifndef {{ module_info.name }}Interfaces_h
+#define {{ module_info.name }}Interfaces_h
+
+#import <Foundation/Foundation.h>
+
+@protocol {{ module_info.name }}Presenter;
+
+@protocol {{ module_info.name }}View <NSObject>
+
+@property (nonatomic) id<{{ module_info.name }}Presenter> presenter;
+
+@end
+
+@protocol {{ module_info.name }}InteractorDelegate <NSObject>
+@end
+
+@protocol {{ module_info.name }}Interactor <NSObject>
+
+@property (nonatomic, weak) id<{{ module_info.name }}InteractorDelegate> delegate;
+
+@end
+
+@protocol {{ module_info.name }}Presenter <NSObject, {{ module_info.name }}InteractorDelegate>
+
+@property (nonatomic, weak) id<{{ module_info.name }}View> view;
+@property (nonatomic) id<{{ module_info.name }}Interactor> interactor;
+
+- (void)viewIsReady;
+
+@end
+
+#endif

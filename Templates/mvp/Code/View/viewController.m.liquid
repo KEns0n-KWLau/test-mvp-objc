@@ -1,0 +1,45 @@
+//
+//  {{ prefix }}{{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+#import "{{ prefix }}{{ module_info.name }}ViewController.h"
+
+@interface {{ prefix }}{{ module_info.name }}ViewController ()
+
+@end
+
+@implementation {{ prefix }}{{ module_info.name }}ViewController
+
+@synthesize presenter;
+
+#pragma mark - View lifecycle
+
+- (void)viewDidLoad 
+{
+	[super viewDidLoad];
+	[self setup];
+	[self.presenter viewIsReady];
+}
+
+#pragma mark - Setup UI
+
+- (void)setup
+{
+	
+}
+
+- (void)setupSubviews
+{
+	
+}
+
+- (void)setupConstraints
+{
+	
+}
+
+@end

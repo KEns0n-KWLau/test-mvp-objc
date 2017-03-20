@@ -1,0 +1,29 @@
+//
+//  {{ prefix }}{{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+#import "{{ prefix }}{{ module_info.name }}Initializer.h"
+#import "{{ prefix }}{{ module_info.name }}ViewController.h"
+#import "{{ prefix }}{{ module_info.name }}Assembly.h"
+
+@interface {{ prefix }}{{ module_info.name }}Initializer ()
+
+@property (weak, nonatomic) IBOutlet {{ prefix }}{{ module_info.name }}ViewController *view;
+
+@end
+
+@implementation {{ prefix }}{{ module_info.name }}Initializer
+
+- (void)awakeFromNib {
+    [super awakeFromNib];
+    
+    if (self.view) {
+        [{{ prefix }}{{ module_info.name }}Assembly assembleForView:self.view];
+    }
+}
+
+@end

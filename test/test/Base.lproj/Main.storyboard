@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+    </dependencies>
+    <scenes>
+        <!--View-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="TTLoginViewController" sceneMemberID="viewController">
+                    <connections>
+                        <segue destination="eYm-z3-eV1" kind="show" identifier="showExplore" action="showDetailViewController:sender:" id="zlc-Ht-34b"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <customObject id="nnj-Pk-kMM" customClass="TTLoginInitializer">
+                    <connections>
+                        <outlet property="view" destination="BYZ-38-t0r" id="WEK-GT-NJe"/>
+                    </connections>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="-679" y="42"/>
+        </scene>
+        <!--Explore View Controller-->
+        <scene sceneID="SFd-fl-AUs">
+            <objects>
+                <viewController id="eYm-z3-eV1" customClass="TTExploreViewController" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bts-cy-hbl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="Ary-i3-Lyp" customClass="TTExploreInitializer"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="-752"/>
+        </scene>
+    </scenes>
+</document>

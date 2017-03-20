@@ -1,0 +1,23 @@
+### Headers settings
+company: DataReef
+author: Victor Tatarasanu
+
+### Xcode project settings
+project_name: test
+xcodeproj_path: test/test.xcodeproj
+prefix: TT
+
+### Code generation settings section
+# The main project target name
+project_target: test
+
+# The file path for new modules
+project_file_path: test/test/Classes/Features
+
+# The Xcode group path to new modules
+project_group_path: test/Classes/Features
+
+### Templates
+templates:
+- {name: mvp}
+

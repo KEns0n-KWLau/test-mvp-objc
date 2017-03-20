@@ -1,0 +1,35 @@
+# Template information section
+
+name: "mvp"
+summary: "MVP Template"
+author: "Victor Tatarasanu"
+version: "1.0"
+license: "MIT"
+
+# The declarations for code files
+code_files:
+
+# Interfaces layer
+- {name: Interfaces/Interfaces.h, path: Code/Interfaces/interfaces.h.liquid}
+
+# Assembly layer
+- {name: Assembly/Assembly.h, path: Code/Assembly/assembly.h.liquid}
+- {name: Assembly/Assembly.m, path: Code/Assembly/assembly.m.liquid}
+
+# Initializer layer
+- {name: Initializer/Initializer.h, path: Code/Initializer/initializer.h.liquid}
+- {name: Initializer/Initializer.m, path: Code/Initializer/initializer.m.liquid}
+
+# Interactor layer
+- {name: Interactor/Interactor.h, path: Code/Interactor/interactor.h.liquid}
+- {name: Interactor/Interactor.m, path: Code/Interactor/interactor.m.liquid}
+
+# Presenter layer
+- {name: Presenter/Presenter.h, path: Code/Presenter/presenter.h.liquid}
+- {name: Presenter/Presenter.m, path: Code/Presenter/presenter.m.liquid}
+
+# View layer
+- {name: View/ViewController.h, path: Code/View/ViewController.h.liquid}
+- {name: View/ViewController.m, path: Code/View/ViewController.m.liquid}
+- {name: View/ViewController.xib, path: Code/View/ViewController.xib.liquid}
+

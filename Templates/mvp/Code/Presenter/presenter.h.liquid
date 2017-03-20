@@ -1,0 +1,16 @@
+//
+//  {{ prefix }}{{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+#import "{{ prefix }}{{ module_info.name }}Interfaces.h"
+
+@interface {{ prefix }}{{ module_info.name }}Presenter : NSObject <{{ module_info.name }}Presenter, {{ module_info.name }}InteractorDelegate>
+
+@property (nonatomic, weak) id<{{ module_info.name }}View> view;
+@property (nonatomic) id<{{ module_info.name }}Interactor> interactor;
+
+@end

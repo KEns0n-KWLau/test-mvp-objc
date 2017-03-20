@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		171B712C70523781F0A89CA9 /* TTLoginInitializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 683C3AA120AE40D6D5C38934 /* TTLoginInitializer.m */; };
+		1D47AE4FC38254679F69B956 /* TTLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B725A828425A5F78E86BA3ED /* TTLoginViewController.xib */; };
+		271C54FAE63401C90EF5287B /* TTLoginInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9ED3FB4C92D62DBE14C8 /* TTLoginInteractor.m */; };
+		573A0A261E8025A2000E09FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 573A0A251E8025A2000E09FC /* main.m */; };
+		573A0A291E8025A2000E09FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 573A0A281E8025A2000E09FC /* AppDelegate.m */; };
+		573A0A2F1E8025A2000E09FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573A0A2D1E8025A2000E09FC /* Main.storyboard */; };
+		573A0A311E8025A2000E09FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 573A0A301E8025A2000E09FC /* Assets.xcassets */; };
+		573A0A341E8025A2000E09FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573A0A321E8025A2000E09FC /* LaunchScreen.storyboard */; };
+		5765EFB31E80344100EEF599 /* TTExploreAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 5765EFA31E80344100EEF599 /* TTExploreAssembly.m */; };
+		5765EFB41E80344100EEF599 /* TTExploreInitializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5765EFA61E80344100EEF599 /* TTExploreInitializer.m */; };
+		5765EFB51E80344100EEF599 /* TTExploreInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5765EFA91E80344100EEF599 /* TTExploreInteractor.m */; };
+		5765EFB61E80344100EEF599 /* TTExplorePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5765EFAE1E80344100EEF599 /* TTExplorePresenter.m */; };
+		5765EFB71E80344100EEF599 /* TTExploreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5765EFB11E80344100EEF599 /* TTExploreViewController.m */; };
+		5765EFB81E80344100EEF599 /* TTExploreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5765EFB21E80344100EEF599 /* TTExploreViewController.xib */; };
+		E4E1C9E88F2EAF5756C36AF4 /* TTLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E97CBDE41ABFF3CEF0C4AE /* TTLoginViewController.m */; };
+		E5F18EE5EED1A09DD9D458DF /* TTLoginPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 032F9121A3E9B0C7E7433CAE /* TTLoginPresenter.m */; };
+		FCC14E31792C6ED38A6D8637 /* TTLoginAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = C051C3C61EA0D48751F7E08B /* TTLoginAssembly.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		032F9121A3E9B0C7E7433CAE /* TTLoginPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TTLoginPresenter.m; sourceTree = "<group>"; };
+		178E07B8F522F84531CC4B47 /* TTLoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TTLoginViewController.h; sourceTree = "<group>"; };
+		3501BE0C1BC264D643A7B1BE /* TTLoginInitializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TTLoginInitializer.h; sourceTree = "<group>"; };
+		573A0A211E8025A2000E09FC /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		573A0A251E8025A2000E09FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		573A0A271E8025A2000E09FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		573A0A281E8025A2000E09FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		573A0A2E1E8025A2000E09FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		573A0A301E8025A2000E09FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		573A0A331E8025A2000E09FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		573A0A351E8025A2000E09FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5765EFA21E80344100EEF599 /* TTExploreAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTExploreAssembly.h; sourceTree = "<group>"; };
+		5765EFA31E80344100EEF599 /* TTExploreAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTExploreAssembly.m; sourceTree = "<group>"; };
+		5765EFA51E80344100EEF599 /* TTExploreInitializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTExploreInitializer.h; sourceTree = "<group>"; };
+		5765EFA61E80344100EEF599 /* TTExploreInitializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTExploreInitializer.m; sourceTree = "<group>"; };
+		5765EFA81E80344100EEF599 /* TTExploreInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTExploreInteractor.h; sourceTree = "<group>"; };
+		5765EFA91E80344100EEF599 /* TTExploreInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTExploreInteractor.m; sourceTree = "<group>"; };
+		5765EFAB1E80344100EEF599 /* TTExploreInterfaces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTExploreInterfaces.h; sourceTree = "<group>"; };
+		5765EFAD1E80344100EEF599 /* TTExplorePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTExplorePresenter.h; sourceTree = "<group>"; };
+		5765EFAE1E80344100EEF599 /* TTExplorePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTExplorePresenter.m; sourceTree = "<group>"; };
+		5765EFB01E80344100EEF599 /* TTExploreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTExploreViewController.h; sourceTree = "<group>"; };
+		5765EFB11E80344100EEF599 /* TTExploreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTExploreViewController.m; sourceTree = "<group>"; };
+		5765EFB21E80344100EEF599 /* TTExploreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTExploreViewController.xib; sourceTree = "<group>"; };
+		683C3AA120AE40D6D5C38934 /* TTLoginInitializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TTLoginInitializer.m; sourceTree = "<group>"; };
+		798D9ED3FB4C92D62DBE14C8 /* TTLoginInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TTLoginInteractor.m; sourceTree = "<group>"; };
+		90AD7ACF5956A63D7CCDB67A /* TTLoginInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TTLoginInteractor.h; sourceTree = "<group>"; };
+		96E97CBDE41ABFF3CEF0C4AE /* TTLoginViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TTLoginViewController.m; sourceTree = "<group>"; };
+		9E50F14E5262DBD91BCA36ED /* TTLoginAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TTLoginAssembly.h; sourceTree = "<group>"; };
+		B725A828425A5F78E86BA3ED /* TTLoginViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TTLoginViewController.xib; sourceTree = "<group>"; };
+		BD05E02B9912E58C17032A82 /* TTLoginPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TTLoginPresenter.h; sourceTree = "<group>"; };
+		C051C3C61EA0D48751F7E08B /* TTLoginAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TTLoginAssembly.m; sourceTree = "<group>"; };
+		D51259106F9C7A52317440E4 /* TTLoginInterfaces.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TTLoginInterfaces.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		573A0A1E1E8025A2000E09FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		573A0A181E8025A2000E09FC = {
+			isa = PBXGroup;
+			children = (
+				573A0A231E8025A2000E09FC /* test */,
+				573A0A221E8025A2000E09FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		573A0A221E8025A2000E09FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				573A0A211E8025A2000E09FC /* test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		573A0A231E8025A2000E09FC /* test */ = {
+			isa = PBXGroup;
+			children = (
+				573A0AA71E8031F7000E09FC /* Classes */,
+				573A0A271E8025A2000E09FC /* AppDelegate.h */,
+				573A0A281E8025A2000E09FC /* AppDelegate.m */,
+				573A0A2D1E8025A2000E09FC /* Main.storyboard */,
+				573A0A301E8025A2000E09FC /* Assets.xcassets */,
+				573A0A321E8025A2000E09FC /* LaunchScreen.storyboard */,
+				573A0A351E8025A2000E09FC /* Info.plist */,
+				573A0A241E8025A2000E09FC /* Supporting Files */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		573A0A241E8025A2000E09FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				573A0A251E8025A2000E09FC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		573A0AA71E8031F7000E09FC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				573A0AA81E8031F7000E09FC /* Features */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		573A0AA81E8031F7000E09FC /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				5765EFA01E80344100EEF599 /* Explore */,
+				573A0AA91E8031F7000E09FC /* Login */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		573A0AA91E8031F7000E09FC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EEDB93B6C526F5115C70ACFA /* Interfaces */,
+				EA95374EB1F4189737AC6DBA /* Assembly */,
+				969BBC1686B8BA724E297A29 /* Initializer */,
+				643FEA2533AF9DA3DCE39969 /* Interactor */,
+				9A53979A80932B36936D94BF /* Presenter */,
+				BCC83362B7F89EE2C0F1883B /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		5765EFA01E80344100EEF599 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				5765EFA11E80344100EEF599 /* Assembly */,
+				5765EFA41E80344100EEF599 /* Initializer */,
+				5765EFA71E80344100EEF599 /* Interactor */,
+				5765EFAA1E80344100EEF599 /* Interfaces */,
+				5765EFAC1E80344100EEF599 /* Presenter */,
+				5765EFAF1E80344100EEF599 /* View */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		5765EFA11E80344100EEF599 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				5765EFA21E80344100EEF599 /* TTExploreAssembly.h */,
+				5765EFA31E80344100EEF599 /* TTExploreAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		5765EFA41E80344100EEF599 /* Initializer */ = {
+			isa = PBXGroup;
+			children = (
+				5765EFA51E80344100EEF599 /* TTExploreInitializer.h */,
+				5765EFA61E80344100EEF599 /* TTExploreInitializer.m */,
+			);
+			path = Initializer;
+			sourceTree = "<group>";
+		};
+		5765EFA71E80344100EEF599 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				5765EFA81E80344100EEF599 /* TTExploreInteractor.h */,
+				5765EFA91E80344100EEF599 /* TTExploreInteractor.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		5765EFAA1E80344100EEF599 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				5765EFAB1E80344100EEF599 /* TTExploreInterfaces.h */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		5765EFAC1E80344100EEF599 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				5765EFAD1E80344100EEF599 /* TTExplorePresenter.h */,
+				5765EFAE1E80344100EEF599 /* TTExplorePresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		5765EFAF1E80344100EEF599 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5765EFB01E80344100EEF599 /* TTExploreViewController.h */,
+				5765EFB11E80344100EEF599 /* TTExploreViewController.m */,
+				5765EFB21E80344100EEF599 /* TTExploreViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		643FEA2533AF9DA3DCE39969 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				90AD7ACF5956A63D7CCDB67A /* TTLoginInteractor.h */,
+				798D9ED3FB4C92D62DBE14C8 /* TTLoginInteractor.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		969BBC1686B8BA724E297A29 /* Initializer */ = {
+			isa = PBXGroup;
+			children = (
+				3501BE0C1BC264D643A7B1BE /* TTLoginInitializer.h */,
+				683C3AA120AE40D6D5C38934 /* TTLoginInitializer.m */,
+			);
+			path = Initializer;
+			sourceTree = "<group>";
+		};
+		9A53979A80932B36936D94BF /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				BD05E02B9912E58C17032A82 /* TTLoginPresenter.h */,
+				032F9121A3E9B0C7E7433CAE /* TTLoginPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		BCC83362B7F89EE2C0F1883B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				178E07B8F522F84531CC4B47 /* TTLoginViewController.h */,
+				96E97CBDE41ABFF3CEF0C4AE /* TTLoginViewController.m */,
+				B725A828425A5F78E86BA3ED /* TTLoginViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EA95374EB1F4189737AC6DBA /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				9E50F14E5262DBD91BCA36ED /* TTLoginAssembly.h */,
+				C051C3C61EA0D48751F7E08B /* TTLoginAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		EEDB93B6C526F5115C70ACFA /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				D51259106F9C7A52317440E4 /* TTLoginInterfaces.h */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		573A0A201E8025A2000E09FC /* test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 573A0A381E8025A2000E09FC /* Build configuration list for PBXNativeTarget "test" */;
+			buildPhases = (
+				573A0A1D1E8025A2000E09FC /* Sources */,
+				573A0A1E1E8025A2000E09FC /* Frameworks */,
+				573A0A1F1E8025A2000E09FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test;
+			productName = test;
+			productReference = 573A0A211E8025A2000E09FC /* test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		573A0A191E8025A2000E09FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Victor Tatarasanu";
+				TargetAttributes = {
+					573A0A201E8025A2000E09FC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = D3THL7H6JB;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 573A0A1C1E8025A2000E09FC /* Build configuration list for PBXProject "test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 573A0A181E8025A2000E09FC;
+			productRefGroup = 573A0A221E8025A2000E09FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				573A0A201E8025A2000E09FC /* test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		573A0A1F1E8025A2000E09FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573A0A341E8025A2000E09FC /* LaunchScreen.storyboard in Resources */,
+				573A0A311E8025A2000E09FC /* Assets.xcassets in Resources */,
+				573A0A2F1E8025A2000E09FC /* Main.storyboard in Resources */,
+				5765EFB81E80344100EEF599 /* TTExploreViewController.xib in Resources */,
+				1D47AE4FC38254679F69B956 /* TTLoginViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		573A0A1D1E8025A2000E09FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573A0A291E8025A2000E09FC /* AppDelegate.m in Sources */,
+				573A0A261E8025A2000E09FC /* main.m in Sources */,
+				5765EFB71E80344100EEF599 /* TTExploreViewController.m in Sources */,
+				FCC14E31792C6ED38A6D8637 /* TTLoginAssembly.m in Sources */,
+				171B712C70523781F0A89CA9 /* TTLoginInitializer.m in Sources */,
+				5765EFB51E80344100EEF599 /* TTExploreInteractor.m in Sources */,
+				271C54FAE63401C90EF5287B /* TTLoginInteractor.m in Sources */,
+				5765EFB31E80344100EEF599 /* TTExploreAssembly.m in Sources */,
+				5765EFB61E80344100EEF599 /* TTExplorePresenter.m in Sources */,
+				5765EFB41E80344100EEF599 /* TTExploreInitializer.m in Sources */,
+				E5F18EE5EED1A09DD9D458DF /* TTLoginPresenter.m in Sources */,
+				E4E1C9E88F2EAF5756C36AF4 /* TTLoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		573A0A2D1E8025A2000E09FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				573A0A2E1E8025A2000E09FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		573A0A321E8025A2000E09FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				573A0A331E8025A2000E09FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		573A0A361E8025A2000E09FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		573A0A371E8025A2000E09FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		573A0A391E8025A2000E09FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D3THL7H6JB;
+				INFOPLIST_FILE = test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = agency.qbits.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		573A0A3A1E8025A2000E09FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D3THL7H6JB;
+				INFOPLIST_FILE = test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = agency.qbits.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		573A0A1C1E8025A2000E09FC /* Build configuration list for PBXProject "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				573A0A361E8025A2000E09FC /* Debug */,
+				573A0A371E8025A2000E09FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		573A0A381E8025A2000E09FC /* Build configuration list for PBXNativeTarget "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				573A0A391E8025A2000E09FC /* Debug */,
+				573A0A3A1E8025A2000E09FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 573A0A191E8025A2000E09FC /* Project object */;
+}
